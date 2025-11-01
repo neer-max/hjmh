@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    background-color: antiquewhite;
+}
+.static{ 
+    position:static;
+    background-color: aqua;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+.sticky{
+    position:sticky;
+    background-color: brown;
+    border:2px solid blue;
+    padding:10px;
+    margin:10px;
+}
+.relative{
+position:relative ;
+    background-color: chartreuse;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+.absolute{
+    position:absolute;
+        background-color: coral;
+        border: 2px solid black;
+        padding: 10px;
+        margin: 10px;
+        top:0x;
+        left:100px;
+}
+.fixed{
+    position:fixed;
+        background-color:cadetblue;
+        border: 2px solid black;
+        padding: 10px;
+        margin: 10px;
+        top:0px;
+        right:0px;
+}
+
